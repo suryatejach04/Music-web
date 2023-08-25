@@ -1,0 +1,11 @@
+.box{
+    position:absolute;
+    top: 1rem;
+    right:12rem;
+    border-radius: 4;
+}
+.but{
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    font-family: 'Bruno Ace SC', cursive;
+    border-radius: 5px;
+}

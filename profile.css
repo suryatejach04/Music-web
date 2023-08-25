@@ -1,0 +1,70 @@
+h1{
+    text-align: left;
+}
+h1,label,.head{
+    font-family: 'Bruno Ace SC', cursive;
+    color: white;
+  }
+
+  .bg{
+    /* Set the width and height of your container */
+    height:100vh;
+    background-image: url("./images/bg-4.jpg");
+    filter: grayscale(0.4);/* set the background color and opacity */
+    background-size:cover;
+    /* background-repeat:no-repeat; */
+    background-attachment: fixed;
+    background-position: center;
+  }
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .fav{
+    position: relative;
+    top: 12rem;
+  }
+  .profile-header img {
+    position: absolute;
+    left:0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  .profile-header h1{
+    position: absolute;
+    left:14rem;
+    top:8rem;
+  }
+  .profile-header p{
+    color: white;
+    position: absolute;
+    left:14rem;
+    top:11rem;
+  }
+  .profile-body {
+    width: 70%;
+    margin-top: 50px;
+    text-align: justify;
+  }
+  
+  .social-media {
+    display: absolute;
+    left:14rem;
+    top:13rem;
+  }
+  
+  .social-media a {
+    margin-right: 20px;
+    font-size: 1.5em;
+    color: #555;
+  }
+  

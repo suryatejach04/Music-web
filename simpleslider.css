@@ -1,0 +1,26 @@
+.container {
+    padding: 40px;
+    background: #419be0;
+  }
+  
+  .slick-slide img {
+    margin: auto;
+  }
+  h1{
+    text-align: left;
+}
+h1,label,.head{
+    font-family: 'Bruno Ace SC', cursive;
+    color: white;
+  }
+
+  .bg{
+    /* Set the width and height of your container */
+    height:100vh;
+    background-image: url("./images/bg-4.jpg");
+    filter: grayscale(0.3);/* set the background color and opacity */
+    background-size:cover;
+    /* background-repeat:no-repeat; */
+    background-attachment: fixed;
+    background-position: center;
+  }

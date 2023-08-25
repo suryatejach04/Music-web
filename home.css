@@ -1,0 +1,23 @@
+h1,h3,label,.head{
+    font-family: 'Bruno Ace SC', cursive;
+    color: white;
+}
+.bg{
+    /* Set the width and height of your container */
+    height:100vh;
+    background-image: url("./images/bg-4.jpg");
+    background-size:cover;
+    /* background-repeat:no-repeat; */
+    background-attachment: fixed;
+    background-position: center;
+  }
+.search{
+  align-items: end;
+}
+  body,html{
+    height:100%;
+}
+*{
+    margin:0%;
+    padding:0%;
+}
